@@ -11,11 +11,13 @@ public class CalculatorTest {
         System.out.println("Podaj prosze drugą liczbe");
         int secondNumber = scanner.nextInt();
 
-        int addition = firstNumber + secondNumber;
-        int subtraction = firstNumber - secondNumber;
-        int multiplication = firstNumber * secondNumber;
-        int division = firstNumber / secondNumber;
-        int mod = firstNumber % secondNumber;
+        Calculator calculator = new Calculator();
+
+        int addition = calculator.addition(firstNumber, secondNumber);
+        int subtraction = calculator.subtraction(firstNumber, secondNumber);
+        int multiplication = calculator.multiplication(firstNumber, secondNumber);
+        int division = calculator.division(firstNumber, secondNumber);
+        int mod = calculator.mod(firstNumber, secondNumber);
 
         System.out.println("Suma pierwszej i drugiej liczby wynosi " + addition + ".");
         System.out.println("Różnica pierwszej i drugiej liczby wynosi " + subtraction + ".");
