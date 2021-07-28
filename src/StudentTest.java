@@ -5,12 +5,19 @@ import java.util.Scanner;
 //
 public class StudentTest {
     public static void main(String[] args){
+
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
+
+
         Student student1 = new Student();
         student1.imię = "Ania";
         student1.nazwisko = "Chrupek";
         student1.email = "ania@interia.pl";
         student1.numerIndeksu = 458777;
         student1.nick = "Chrupciak";
+        String uczelniaAni = student1.nazwaUczelni;
+        student1.infoUczelnia();
 
         Student student2 = new Student();
         student2.imię = "Przemyslaw";
