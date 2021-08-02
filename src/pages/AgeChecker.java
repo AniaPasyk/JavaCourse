@@ -1,4 +1,4 @@
-/* Zapytaj uzytkownika o wiek.
+package pages;/* Zapytaj uzytkownika o wiek.
 W przypadku gdy ma mniej niż 18 lat wypisz na ekranie informacje ze nie moze kupić alkoholu.
 Gdy ma więcej niż 18 lat podziękuj za zakupy
  */

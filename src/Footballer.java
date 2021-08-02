@@ -7,9 +7,10 @@ public class Footballer extends Person {
         System.out.println("Jestem w konstruktorze footballer");
         this.footballClub = footballClub;
     }
+    public void eat(){
+    System.out.println("I like healthy food!");
+    }
 
-    public void playFootball(){
-
-        System.out.println("I'm playing football for " + footballClub);
+    public void playFootball(){System.out.println("I'm playing football for " + footballClub);
     }
 }
